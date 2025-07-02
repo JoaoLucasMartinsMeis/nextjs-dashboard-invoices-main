@@ -14,7 +14,7 @@ export default async function Page(){
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
 
             </div>
-            <div className="mt-6 gap-6 sm:grid-cols-2 lg:grid-cols-8">
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-8">
                 <RevenueChart revenue={revenue} />
                 <LatestInvoices latestInvoices={latestInvoices} />
             </div>
